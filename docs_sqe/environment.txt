@@ -1,0 +1,26 @@
+Python 3.14.8
+cloudpickle==3.1.2
+contourpy==1.4.0
+coverage==7.16.2
+cycler==0.12.1
+Farama-Notifications==0.0.6
+fonttools==4.67.0
+gymnasium==1.4.0
+-e git+https://github.com/RobotCosmonaut/HighwayEnv-SQE.git@37c84a34cadcbfc17d61acf5196a89c380a56943#egg=highway_env
+iniconfig==2.3.1
+kiwisolver==1.5.1
+matplotlib==3.11.2
+noise==1.2.2
+numpy==2.5.4
+packaging==26.3
+pandas==3.0.6
+pillow==13.0.0
+pluggy==1.7.0
+pygame-ce==2.5.8
+Pygments==2.21.0
+pyparsing==3.3.3
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+scipy==1.18.1
+six==1.17.0
+typing_extensions==4.16.0

@@ -1,0 +1,29 @@
+/home/rdenny/Projects/HighwayEnv-SQE/highway_env/vehicle/controller.py:335: RuntimeWarning: invalid value encountered in scalar divide
+  x = (speed - self.target_speeds[0]) / (
+/home/rdenny/Projects/HighwayEnv-SQE/highway_env/vehicle/controller.py:338: RuntimeWarning: invalid value encountered in cast
+  return np.int64(
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+    env = gym.make('highway-v0', config={'action': {'type': 'DiscreteMetaAction', 'target_speeds': [25]}})
+  File "/home/rdenny/Projects/HighwayEnv-SQE/.venv/lib64/python3.14/site-packages/gymnasium/envs/registration.py", line 738, in make
+    env = env_creator(**env_spec_kwargs)  # ty:ignore[call-top-callable]
+  File "/home/rdenny/Projects/HighwayEnv-SQE/highway_env/envs/common/abstract.py", line 91, in __init__
+    self.reset()
+    ~~~~~~~~~~^^
+  File "/home/rdenny/Projects/HighwayEnv-SQE/highway_env/envs/common/abstract.py", line 241, in reset
+    self._reset()
+    ~~~~~~~~~~~^^
+  File "/home/rdenny/Projects/HighwayEnv-SQE/highway_env/envs/highway_env.py", line 57, in _reset
+    self._create_vehicles()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/rdenny/Projects/HighwayEnv-SQE/highway_env/envs/highway_env.py", line 87, in _create_vehicles
+    vehicle = self.action_type.vehicle_class(
+        self.road, vehicle.position, vehicle.heading, vehicle.speed
+    )
+  File "/home/rdenny/Projects/HighwayEnv-SQE/highway_env/vehicle/controller.py", line 293, in __init__
+    self.target_speed = self.index_to_speed(self.speed_index)
+                        ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/rdenny/Projects/HighwayEnv-SQE/highway_env/vehicle/controller.py", line 324, in index_to_speed
+    return self.target_speeds[index]
+           ~~~~~~~~~~~~~~~~~~^^^^^^^
+IndexError: index -9223372036854775808 is out of bounds for axis 0 with size 1
