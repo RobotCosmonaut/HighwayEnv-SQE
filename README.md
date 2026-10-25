@@ -7,6 +7,9 @@
 # HighwayEnv SQE Testing
 A test based analysis of <a href="https://highway-env.farama.org/" target="_blank">HighwayEnv</a>
 
+***
+
+# HighwayEnv Project Information
 
 <p align="center">
     <a href="https://highway-env.farama.org/" target="_blank">
