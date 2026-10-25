@@ -5,7 +5,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # HighwayEnv SQE Testing
-A test based analysis of HighwayEnv 
+A test based analysis of <a href="https://highway-env.farama.org/" target="_blank">HighwayEnv</a>
 
 
 <p align="center">
