@@ -5,7 +5,8 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # HighwayEnv SQE Testing
-A test based analysis of <a href="https://highway-env.farama.org/" target="_blank">HighwayEnv</a>
+A Test Based Analysis of Autonomous Driving and Decision-Making
+Simulations based on the <a href="https://highway-env.farama.org/" target="_blank">HighwayEnv</a> project
 
 ***
 
