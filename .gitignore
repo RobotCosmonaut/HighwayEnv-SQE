@@ -148,6 +148,7 @@ jupyter_execute
 
 # IDE
 .idea
+.vscode/settings.json
 
 racetrack_oval_ppo/
 .venv/
